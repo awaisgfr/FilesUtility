@@ -11,7 +11,7 @@ In Project level build.Gradle:
 
 allprojects {
 		repositories {
-			...
+
 			maven { url 'https://jitpack.io' }
 		}
 	}
@@ -19,7 +19,7 @@ allprojects {
 In app level build.Gradle:
 
 dependencies {
-	        implementation 'com.github.awaisgfr:FilesUtility:Tag'
+	        implementation 'com.github.awaisgfr:FilesUtility:1.0'
 	}
 
 --------------------------------------------
