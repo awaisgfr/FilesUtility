@@ -1,7 +1,7 @@
 # FilesUtility
 Library for handling Files related functions.
 
-//////////////////////////////////////////////////
+---------------------------------------------
 
 ***Implementation:***
 
@@ -22,14 +22,13 @@ dependencies {
 	        implementation 'com.github.awaisgfr:FilesUtility:Tag'
 	}
 
-//////////////////////////////////////////////////
-
+--------------------------------------------
 
 ***Usage***
 
 initalize like:
 
 FileUtils fileUtils=new FileUtils(context);
-fileUtils.isStoragePermissionAllowed();
 
-/////////////////////////////////////////////////
+
+
